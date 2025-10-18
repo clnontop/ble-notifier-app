@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BLERealTimeNotifier" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+
+    <style name="Theme.BLERealTimeNotifier" parent="Base.Theme.BLERealTimeNotifier" />
+    
+    <!-- Button Styles -->
+    <style name="StartButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/status_active</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="StopButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/error</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="WarningButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/warning</item>
+        <item name="android:textColor">@color/warning</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Material Design Colors -->
+    <color name="primary">#FF2196F3</color>
+    <color name="primary_dark">#FF1976D2</color>
+    <color name="accent">#FFFF5722</color>
+    
+    <!-- Status Colors -->
+    <color name="status_active">#FF4CAF50</color>
+    <color name="status_inactive">#FF9E9E9E</color>
+    <color name="warning">#FFFF9800</color>
+    <color name="error">#FFF44336</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#FFF5F5F5</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="surface_variant">#FFF0F0F0</color>
+</resources>
