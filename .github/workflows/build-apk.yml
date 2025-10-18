@@ -40,7 +40,7 @@ jobs:
     - name: Build debug APK
       uses: gradle/gradle-build-action@v2
       with:
-        arguments: app:assembleDebug
+        arguments: assembleDebug
 
     - name: Upload APK as artifact
       uses: actions/upload-artifact@v4
@@ -51,7 +51,7 @@ jobs:
     - name: Build release APK (unsigned)
       uses: gradle/gradle-build-action@v2
       with:
-        arguments: app:assembleRelease
+        arguments: assembleRelease
       continue-on-error: true
 
     - name: Upload Release APK as artifact (if built)
